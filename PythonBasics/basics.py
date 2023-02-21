@@ -36,3 +36,14 @@ import math # sqrt, log, exp, etc
 
 for x in list(range(5)):
     print(math.sqrt(x))
+
+#Lists are useful for when you need to do some sort of repetitive task whether it is to modify, 
+# parse or even extract some sort of signal from a data set. 
+# However, the tuple object cannot be modified once it has been created.
+
+#Tuples
+# Tuples cannot be modified after it has been created
+
+airport_tuple = tuple(airport)
+
+airport[0]
